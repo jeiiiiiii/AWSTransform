@@ -1,0 +1,74 @@
+@model IEnumerable<InventoryDemo.Domain.Product>
+@{
+    ViewData["Title"] = "Products";
+    int total = ViewBag.Total;
+    int page = ViewBag.Page;
+    int pageSize = ViewBag.PageSize;
+    int totalPages = (int)Math.Ceiling((double)total / pageSize);
+}
+
+<h2>Products <a href="/Products/Create" class="btn btn-primary btn-sm ms-2">+ New</a></h2>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-auto">
+        <input name="search" value="@ViewBag.Search" class="form-control" placeholder="Search name/SKU" />
+    </div>
+    <div class="col-auto">
+        <select name="category" class="form-select">
+            <option value="">All Categories</option>
+            @foreach (var c in (List<InventoryDemo.Domain.Category>)ViewBag.Categories)
+            {
+                <option value="@c.Id" selected="@(ViewBag.CategoryFilter?.ToString() == c.Id.ToString())">@c.Name</option>
+            }
+        </select>
+    </div>
+    <div class="col-auto">
+        <select name="supplier" class="form-select">
+            <option value="">All Suppliers</option>
+            @foreach (var s in (List<InventoryDemo.Domain.Supplier>)ViewBag.Suppliers)
+            {
+                <option value="@s.Id" selected="@(ViewBag.SupplierFilter?.ToString() == s.Id.ToString())">@s.Name</option>
+            }
+        </select>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-secondary">Filter</button>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr><th>Name</th><th>SKU</th><th>Category</th><th>Supplier</th><th>Price</th><th>Stock</th><th></th></tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Name</td>
+            <td>@p.Sku</td>
+            <td>@p.Category?.Name</td>
+            <td>@p.Supplier?.Name</td>
+            <td>@p.Price.ToString("C")</td>
+            <td>@p.Stock</td>
+            <td>
+                <a href="/Products/Edit/@p.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                <form method="post" action="/Products/Delete/@p.Id" class="d-inline">
+                    <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Delete @p.Name?')">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            <li class="page-item @(i == page ? "active" : "")">
+                <a class="page-link" href="/Products?page=@i&pageSize=@pageSize&search=@ViewBag.Search&category=@ViewBag.CategoryFilter&supplier=@ViewBag.SupplierFilter">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
+<p class="text-muted">@total total records</p>

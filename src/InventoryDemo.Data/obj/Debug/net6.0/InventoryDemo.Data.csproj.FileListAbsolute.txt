@@ -1,0 +1,17 @@
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\bin\Debug\net6.0\InventoryDemo.Data.deps.json
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\bin\Debug\net6.0\InventoryDemo.Data.runtimeconfig.json
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\bin\Debug\net6.0\InventoryDemo.Data.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\bin\Debug\net6.0\InventoryDemo.Data.pdb
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\bin\Debug\net6.0\InventoryDemo.Domain.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\bin\Debug\net6.0\InventoryDemo.Domain.pdb
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.csproj.AssemblyReference.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.AssemblyInfoInputs.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.AssemblyInfo.cs
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.csproj.CoreCompileInputs.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.csproj.CopyComplete
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\refint\InventoryDemo.Data.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.pdb
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\InventoryDemo.Data.genruntimeconfig.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Data\obj\Debug\net6.0\ref\InventoryDemo.Data.dll

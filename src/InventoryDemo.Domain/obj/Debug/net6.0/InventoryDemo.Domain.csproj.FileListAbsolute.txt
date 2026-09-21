@@ -1,0 +1,12 @@
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\bin\Debug\net6.0\InventoryDemo.Domain.deps.json
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\bin\Debug\net6.0\InventoryDemo.Domain.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\bin\Debug\net6.0\InventoryDemo.Domain.pdb
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.csproj.AssemblyReference.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.AssemblyInfoInputs.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.AssemblyInfo.cs
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\refint\InventoryDemo.Domain.dll
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\InventoryDemo.Domain.pdb
+C:\Users\Elevate\PRG\AWS Transform\InventoryDemo\src\InventoryDemo.Domain\obj\Debug\net6.0\ref\InventoryDemo.Domain.dll
