@@ -1,0 +1,10 @@
+.git
+.gitmodules
+.gitignore
+tests/
+**/*.md
+**/*.sln.DotSettings
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
