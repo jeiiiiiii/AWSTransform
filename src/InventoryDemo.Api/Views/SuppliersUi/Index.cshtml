@@ -1,0 +1,27 @@
+@model IEnumerable<InventoryDemo.Domain.Supplier>
+@{
+    ViewData["Title"] = "Suppliers";
+}
+
+<h2>Suppliers <a href="/Suppliers/Create" class="btn btn-primary btn-sm ms-2">+ New</a></h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr><th>Name</th><th>Contact Email</th><th></th></tr>
+    </thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Name</td>
+            <td>@s.ContactEmail</td>
+            <td>
+                <a href="/Suppliers/Edit/@s.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                <form method="post" action="/Suppliers/Delete/@s.Id" class="d-inline">
+                    <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Delete @s.Name?')">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
